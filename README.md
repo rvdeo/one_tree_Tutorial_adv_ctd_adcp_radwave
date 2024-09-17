@@ -18,7 +18,7 @@ Follow the installation instructions for your operating system.
 
 Open a terminal or command prompt and run the following command:
 
-    git clone https://github.com/video/one_tree_tutorial_drop_camera_rtk.git
+    git clone https://github.com/rvdeo/one_tree_Tutorial_pt_adv_ctd_adcp_radwave.git
 
 ## Step 3: Create and Activate a Virtual Environment
 
@@ -43,6 +43,9 @@ Activate the virtual environment:
 ## Step 4: Install Dependencies from Requirements File
 
     conda install --file requirements.txt
+if this fails, then try;
+
+    pip install -r requirements.txt
 
 ## Ready to Use
 You've successfully cloned the GitHub repository and installed its dependencies in the Anaconda environment. You can now proceed with your work in the activated virtual environment.
